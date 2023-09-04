@@ -25,4 +25,11 @@ UE5学习过程中
 GamePlay架构中有一项SubSystemSample技术，就是依托于 UEngineSubsystem UEditorSubSystem ULocalPlayerSubsystem UGameInstanceSubsystem，派生自这四个类的子类，可以获得跟父类一样的lifetime，当我们需要添加某些功能的时候，可以用到，比如玩家得分（如果是全局性的得分的话），具体还可以用到哪里，我现在也没有什么思路，一边写sample，一边从网上找例子吧。
 
 
+### ThreadsSample
+
+在UE中有很多种类型的Threads，https://docs.unrealengine.com/4.27/en-US/API/Runtime/Core/Async/ENamedThreads__Type/  在本例中我们将对每一种类型的线程进行实践。
+
 ### GameFeatures
+
+
+
