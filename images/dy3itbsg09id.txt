@@ -1,0 +1,1196 @@
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_0"
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_1"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_1"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'"MaterialGraphNode_24.MaterialExpressionMaterialFunctionCall_4"')
+      bLastPreviewed=True
+      Id=95A2C4E04F4FA71F39818CB30F1FCBBF
+      MaterialExpressionEditorX=1920
+      MaterialExpressionEditorY=-896
+      MaterialExpressionGuid=3D5E54D945A9B6665B583D97C3DC5367
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionFunctionOutput'"MaterialExpressionFunctionOutput_1"'
+   NodePosX=1920
+   NodePosY=-896
+   NodeGuid=26B04071426F3BE1EFEA46BE59898378
+   CustomProperties Pin (PinId=18F1D4AD446B42117D3E569E931F5768,PinName="Input",PinFriendlyName=" ",PinType.PinCategory="required",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_24 7BECB4C9461E2CCEB02A34B18B72D052,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=F36FB00C4D6880D8F5A5F087AA67B2AB,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_1"
+   Begin Object Class=/Script/Engine.MaterialExpressionSine Name="MaterialExpressionSine_1"
+   End Object
+   Begin Object Name="MaterialExpressionSine_1"
+      Input=(Expression=MaterialExpressionReroute'"MaterialGraphNode_Knot_0.MaterialExpressionReroute_0"')
+      MaterialExpressionEditorX=-992
+      MaterialExpressionEditorY=-688
+      MaterialExpressionGuid=71E6466842B6197A9570CD8C04F87811
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionSine'"MaterialExpressionSine_1"'
+   NodePosX=-992
+   NodePosY=-688
+   NodeGuid=B95A6F384E351F8809C82386A30B2D83
+   CustomProperties Pin (PinId=B0BC9CDA432AE04DD2C17BBC0B87AEFB,PinName="Input",PinFriendlyName=" ",PinType.PinCategory="required",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_Knot_0 95A896AD4F6F90C301EE0E939C280FD0,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=3F19D2834E2FAEEC90AF079836A66155,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_21 8B120ABE46087531B7001FA62A425DE6,MaterialGraphNode_43 995D969144C93F6F5B5A50BB716FDE9C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_2"
+   Begin Object Class=/Script/Engine.MaterialExpressionTime Name="MaterialExpressionTime_0"
+   End Object
+   Begin Object Name="MaterialExpressionTime_0"
+      MaterialExpressionEditorX=-2320
+      MaterialExpressionEditorY=-304
+      MaterialExpressionGuid=521DC0E547048E1AFAAD888E16AD63BD
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionTime'"MaterialExpressionTime_0"'
+   NodePosX=-2320
+   NodePosY=-304
+   NodeGuid=FEC5A36D4329EF5DEE4BF99D1C68F776
+   CustomProperties Pin (PinId=AE8E40C84EAA29216129A7AEA3387C3E,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_3 507998E949E1E284855F2AAB832F8F95,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_3"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_13"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_13"
+      A=(Expression=MaterialExpressionTime'"MaterialGraphNode_2.MaterialExpressionTime_0"')
+      B=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_18.MaterialExpressionMultiply_16"')
+      MaterialExpressionEditorX=-2128
+      MaterialExpressionEditorY=-224
+      MaterialExpressionGuid=3474C39D43578DC7131233AEFC63C857
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionMultiply'"MaterialExpressionMultiply_13"'
+   NodePosX=-2128
+   NodePosY=-224
+   NodeGuid=E803685F406E0958D8BED3BB9407DADE
+   CustomProperties Pin (PinId=507998E949E1E284855F2AAB832F8F95,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_2 AE8E40C84EAA29216129A7AEA3387C3E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=A7E81FFD4380E80D63012088B028B8D3,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_18 4A98F17E40AC773BB19999873122B120,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=3D430C214E82E5BD7FF9F9BF722DF515,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_19 B2B8184247BB3C9097150095CCE28100,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_4"
+   Begin Object Class=/Script/Engine.MaterialExpressionWorldPosition Name="MaterialExpressionWorldPosition_1"
+   End Object
+   Begin Object Name="MaterialExpressionWorldPosition_1"
+      MaterialExpressionEditorX=-3872
+      MaterialExpressionEditorY=-1040
+      MaterialExpressionGuid=1FFC052B44DB71DBCAEFC39C9808E2F4
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionWorldPosition'"MaterialExpressionWorldPosition_1"'
+   NodePosX=-3872
+   NodePosY=-1040
+   NodeGuid=415BFD31418AA0044F568C99E1FC3D36
+   CustomProperties Pin (PinId=4AAB07E847A1543DA0F6B787929A6E8D,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_5 387C27024F2E4214E7A40287DAD68179,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_5"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_14"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_14"
+      A=(Expression=MaterialExpressionWorldPosition'"MaterialGraphNode_4.MaterialExpressionWorldPosition_1"')
+      B=(Expression=MaterialExpressionScalarParameter'"MaterialGraphNode_6.MaterialExpressionScalarParameter_2"')
+      MaterialExpressionEditorX=-3568
+      MaterialExpressionEditorY=-992
+      MaterialExpressionGuid=6E8058BA45D55326ED3DD6B24D3E292C
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionMultiply'"MaterialExpressionMultiply_14"'
+   NodePosX=-3568
+   NodePosY=-992
+   NodeGuid=3AD6D1F944B1A36DB5602BB331E482CE
+   CustomProperties Pin (PinId=387C27024F2E4214E7A40287DAD68179,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_4 4AAB07E847A1543DA0F6B787929A6E8D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=8FC954AD4573A39AEC8D96B929A17CD1,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_6 1B38426E4B46D56F432AADA8D3570537,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=9031266A49BDDD58C82BC3862613ADB9,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_7 EA12B4854ACC3FEDA45841BD2DCCB773,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_6"
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_2"
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_2"
+      DefaultValue=0.100000
+      ParameterName="space multiply2"
+      ExpressionGUID=C93FCD7B40F3A820DEC034BC2B2A4FE1
+      MaterialExpressionEditorX=-3776
+      MaterialExpressionEditorY=-944
+      MaterialExpressionGuid=7052CCD048F392BF71B2679E2F149F90
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_2"'
+   NodePosX=-3776
+   NodePosY=-944
+   bCanRenameNode=True
+   NodeGuid=4C71D5C94D055462C3AC18A216A4F2F6
+   CustomProperties Pin (PinId=1B38426E4B46D56F432AADA8D3570537,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_5 8FC954AD4573A39AEC8D96B929A17CD1,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_7"
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_4"
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_4"
+      Input=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_5.MaterialExpressionMultiply_14"')
+      R=True
+      G=True
+      MaterialExpressionEditorX=-3232
+      MaterialExpressionEditorY=-992
+      MaterialExpressionGuid=C892E5AF455C3C47CD260989B40D00D1
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_4"'
+   NodePosX=-3232
+   NodePosY=-992
+   NodeGuid=E7A6AD504AE3B665C383B08CF16E676C
+   CustomProperties Pin (PinId=EA12B4854ACC3FEDA45841BD2DCCB773,PinName="Input",PinFriendlyName=" ",PinType.PinCategory="required",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_5 9031266A49BDDD58C82BC3862613ADB9,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=54107CA44801AB5173E9168F5466FA02,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_9 FCEB9B764DB9A40CB8D48E9517B8A4FE,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_8"
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_5"
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_5"
+      Input=(Expression=MaterialExpressionVectorParameter'"MaterialGraphNode_10.MaterialExpressionVectorParameter_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      R=True
+      G=True
+      MaterialExpressionEditorX=-3536
+      MaterialExpressionEditorY=-1312
+      MaterialExpressionGuid=C892E5AF455C3C47CD260989B40D00D1
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_5"'
+   NodePosX=-3536
+   NodePosY=-1312
+   NodeGuid=0101EC2B4591683B48D9AAB4B1372DA0
+   CustomProperties Pin (PinId=64265A8C4FB805B4A49CF2851E52DDAF,PinName="Input",PinFriendlyName=" ",PinType.PinCategory="required",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_10 F45202DD497C7962ED5E80AD05D23E2A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=FFDA8FE34BFA778F8DE6F1BE022E5FC4,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_11 D5F6A03740D1F14157A0CA9FE4B1195E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_9"
+   Begin Object Class=/Script/Engine.MaterialExpressionDotProduct Name="MaterialExpressionDotProduct_1"
+   End Object
+   Begin Object Name="MaterialExpressionDotProduct_1"
+      A=(Expression=MaterialExpressionNormalize'"MaterialGraphNode_11.MaterialExpressionNormalize_0"')
+      B=(Expression=MaterialExpressionComponentMask'"MaterialGraphNode_7.MaterialExpressionComponentMask_4"')
+      MaterialExpressionEditorX=-2768
+      MaterialExpressionEditorY=-1120
+      MaterialExpressionGuid=7383E3164B1877768889F8A51D6F5906
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionDotProduct'"MaterialExpressionDotProduct_1"'
+   NodePosX=-2768
+   NodePosY=-1120
+   NodeGuid=91C77E3E4176CD4F76A877838CE1AC61
+   CustomProperties Pin (PinId=EC06079A4B419307A7BD8DBE2EA5DC1A,PinName="A",PinType.PinCategory="required",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_11 6E4B065E4ED4AD3FC0C085B50C59A826,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=FCEB9B764DB9A40CB8D48E9517B8A4FE,PinName="B",PinType.PinCategory="required",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_7 54107CA44801AB5173E9168F5466FA02,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=05BB6C8C453B926ABDE834AB71B7EBAA,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_16 0E869EA14E523536DF16E6938C802BD9,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_10"
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_1"
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_1"
+      DefaultValue=(R=0.400000,G=0.600000,B=0.000000,A=1.000000)
+      ParameterName="direction2"
+      ExpressionGUID=F47366C54D51B43E124902B468F3FC83
+      MaterialExpressionEditorX=-3744
+      MaterialExpressionEditorY=-1408
+      MaterialExpressionGuid=3F4DF646410F786D563C7B84F5376A6D
+      Material=Material'"/Engine/Transient.Material_36"'
+      bCollapsed=True
+   End Object
+   MaterialExpression=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_1"'
+   NodePosX=-3744
+   NodePosY=-1408
+   bCanRenameNode=True
+   NodeGuid=F4CF00104A09632C50B16CBADC5B7AE0
+   CustomProperties Pin (PinId=F45202DD497C7962ED5E80AD05D23E2A,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="mask",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_8 64265A8C4FB805B4A49CF2851E52DDAF,MaterialGraphNode_26 3AF5597943A71E7AD04487B860B4EF4E,MaterialGraphNode_35 E58086784D58A4190BCEEE87AF1FAE49,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=77A05C4246D5E017DF08968162FEE9A3,PinName="Output2",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="mask",PinType.PinSubCategory="red",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=A8C47746429494B9DE053C8422FB4A35,PinName="Output3",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="mask",PinType.PinSubCategory="green",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=78180D504F77F8B6375D51AB36EED390,PinName="Output4",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="mask",PinType.PinSubCategory="blue",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=78C01FB7487C26D42290C5BF2396F965,PinName="Output5",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="mask",PinType.PinSubCategory="alpha",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_11"
+   Begin Object Class=/Script/Engine.MaterialExpressionNormalize Name="MaterialExpressionNormalize_0"
+   End Object
+   Begin Object Name="MaterialExpressionNormalize_0"
+      VectorInput=(Expression=MaterialExpressionComponentMask'"MaterialGraphNode_8.MaterialExpressionComponentMask_5"')
+      MaterialExpressionEditorX=-3376
+      MaterialExpressionEditorY=-1344
+      MaterialExpressionGuid=989F0D53423FF8EAD4D6EDAB92381489
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionNormalize'"MaterialExpressionNormalize_0"'
+   NodePosX=-3376
+   NodePosY=-1344
+   NodeGuid=5D23B1EA48A94478F74EE3AF05653629
+   CustomProperties Pin (PinId=D5F6A03740D1F14157A0CA9FE4B1195E,PinName="VectorInput",PinType.PinCategory="required",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_8 FFDA8FE34BFA778F8DE6F1BE022E5FC4,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=6E4B065E4ED4AD3FC0C085B50C59A826,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_9 EC06079A4B419307A7BD8DBE2EA5DC1A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_12"
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_7"
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_7"
+      DefaultValue=400.000000
+      ParameterName="wavelength(L)2"
+      ExpressionGUID=5BCDC3394DC9B3171046B694D931A29A
+      MaterialExpressionEditorX=-3264
+      MaterialExpressionEditorY=-416
+      MaterialExpressionGuid=7370731F4A178C3B7D6F44861321EC59
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_7"'
+   NodePosX=-3264
+   NodePosY=-416
+   bCanRenameNode=True
+   NodeGuid=BC0C614B47AF6BDE989EB39C4446F3D9
+   CustomProperties Pin (PinId=C81E7C574AF63C6752E095913F18BDEF,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_15 563D04F24BA7A0AF506998BE393329C5,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_13"
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_3"
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_3"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Math/Pi.Pi"'
+      FunctionInputs(0)=(ExpressionInputId=84B7E00B475AA443B5528B9B43EBDA1E,Input=(Expression=MaterialExpressionConstant'"MaterialGraphNode_14.MaterialExpressionConstant_1"',InputName="Multiplier"))
+      FunctionOutputs(0)=(ExpressionOutputId=D4753A094317F28FD02E698B43558358,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-3264
+      MaterialExpressionEditorY=-544
+      MaterialExpressionGuid=7E7F08574B859810AEF95D9D37FABDFB
+      Material=Material'"/Engine/Transient.Material_36"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   MaterialExpression=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_3"'
+   NodePosX=-3264
+   NodePosY=-544
+   NodeGuid=AC00A1904D7C751B610227B59FABD353
+   CustomProperties Pin (PinId=BE21452041FC2C42A18C0B9A26D6D140,PinName="Multiplier (S)",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_14 0FEFB0FA463E6E1B9B8297966688AEB5,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=A2FCEC4A461352C1D7B508BC63D0ADAF,PinName="Result",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_15 D308680945D2A12DB791CCBBE15EC223,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_14"
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_1"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_1"
+      R=2.000000
+      MaterialExpressionEditorX=-3360
+      MaterialExpressionEditorY=-544
+      MaterialExpressionGuid=32FC332A4A01DB868585179697AAB330
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionConstant'"MaterialExpressionConstant_1"'
+   NodePosX=-3360
+   NodePosY=-544
+   NodeGuid=8A2170EF4FDFA32B3739D695666FE506
+   CustomProperties Pin (PinId=0FEFB0FA463E6E1B9B8297966688AEB5,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_13 BE21452041FC2C42A18C0B9A26D6D140,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_15"
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_1"
+   End Object
+   Begin Object Name="MaterialExpressionDivide_1"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'"MaterialGraphNode_13.MaterialExpressionMaterialFunctionCall_3"')
+      B=(Expression=MaterialExpressionScalarParameter'"MaterialGraphNode_12.MaterialExpressionScalarParameter_7"')
+      MaterialExpressionEditorX=-2976
+      MaterialExpressionEditorY=-512
+      MaterialExpressionGuid=1B8FB1BF4897E70CE1B960A92C468FD2
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionDivide'"MaterialExpressionDivide_1"'
+   NodePosX=-2976
+   NodePosY=-512
+   NodeGuid=3E62AEF14DB7B6A4EB310BA9738AF6E8
+   CustomProperties Pin (PinId=D308680945D2A12DB791CCBBE15EC223,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_13 A2FCEC4A461352C1D7B508BC63D0ADAF,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=563D04F24BA7A0AF506998BE393329C5,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_12 C81E7C574AF63C6752E095913F18BDEF,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=D29AF3DB4A298D52A87D338CF0EB05CD,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_16 2193CBB84551DCBAB7AF5B82B59BDA08,MaterialGraphNode_18 BEDA2FF245D3EF16F17017A612DCDBF1,MaterialGraphNode_31 AA38901049CC459338CF45917F809169,MaterialGraphNode_44 31FA25874A05D5FFC7B2A9899E35FE8F,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_16"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_15"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_15"
+      A=(Expression=MaterialExpressionDotProduct'"MaterialGraphNode_9.MaterialExpressionDotProduct_1"')
+      B=(Expression=MaterialExpressionDivide'"MaterialGraphNode_15.MaterialExpressionDivide_1"')
+      MaterialExpressionEditorX=-1968
+      MaterialExpressionEditorY=-704
+      MaterialExpressionGuid=1B148B82455D66BC5EFEF4871E438D74
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionMultiply'"MaterialExpressionMultiply_15"'
+   NodePosX=-1968
+   NodePosY=-704
+   NodeGuid=1A7008E4418DAB12D695A88C3C980433
+   CustomProperties Pin (PinId=0E869EA14E523536DF16E6938C802BD9,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_9 05BB6C8C453B926ABDE834AB71B7EBAA,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=2193CBB84551DCBAB7AF5B82B59BDA08,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_15 D29AF3DB4A298D52A87D338CF0EB05CD,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=19E46DCB40E9FE8226A39EB26CA686B6,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_19 C3A5AC844018B70E8974018BDA8A67CA,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_17"
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_8"
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_8"
+      DefaultValue=100.000000
+      ParameterName="speed2"
+      ExpressionGUID=E5AC8F7540426E544ECC2A8109EFA06A
+      MaterialExpressionEditorX=-2880
+      MaterialExpressionEditorY=-64
+      MaterialExpressionGuid=0BD244BB46E558D63A68FB87ADC4E436
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_8"'
+   NodePosX=-2880
+   NodePosY=-64
+   bCanRenameNode=True
+   NodeGuid=C0F868F84701984614C5E9A844AA19AA
+   CustomProperties Pin (PinId=4A55498240DA86EE3A3329833EC5D80B,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_18 31B5C61C4B5AA7B883F6C596DA565BE3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_18"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_16"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_16"
+      A=(Expression=MaterialExpressionDivide'"MaterialGraphNode_15.MaterialExpressionDivide_1"')
+      B=(Expression=MaterialExpressionScalarParameter'"MaterialGraphNode_17.MaterialExpressionScalarParameter_8"')
+      MaterialExpressionEditorX=-2624
+      MaterialExpressionEditorY=-96
+      MaterialExpressionGuid=6D953FD4488D983CD3AE26BD47ACC171
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionMultiply'"MaterialExpressionMultiply_16"'
+   NodePosX=-2624
+   NodePosY=-96
+   NodeGuid=B598806B4FC562DD8F94DAA49BF32DA3
+   CustomProperties Pin (PinId=BEDA2FF245D3EF16F17017A612DCDBF1,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_15 D29AF3DB4A298D52A87D338CF0EB05CD,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=31B5C61C4B5AA7B883F6C596DA565BE3,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_17 4A55498240DA86EE3A3329833EC5D80B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=4A98F17E40AC773BB19999873122B120,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_3 A7E81FFD4380E80D63012088B028B8D3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_19"
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_0"
+   End Object
+   Begin Object Name="MaterialExpressionAdd_0"
+      A=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_16.MaterialExpressionMultiply_15"')
+      B=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_3.MaterialExpressionMultiply_13"')
+      MaterialExpressionEditorX=-1472
+      MaterialExpressionEditorY=-496
+      MaterialExpressionGuid=3DCCAA304B91C2B2FBC1B1A6F5B0A1CA
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionAdd'"MaterialExpressionAdd_0"'
+   NodePosX=-1472
+   NodePosY=-496
+   NodeGuid=9214FCF94C4B8D1FA128DEA46F9F2DD5
+   CustomProperties Pin (PinId=C3A5AC844018B70E8974018BDA8A67CA,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_16 19E46DCB40E9FE8226A39EB26CA686B6,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=B2B8184247BB3C9097150095CCE28100,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_3 3D430C214E82E5BD7FF9F9BF722DF515,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=77A7A7D64B4097BCB83FFBB41937F3EF,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_25 E06D04B54A8A0899228007A8ADD80C48,MaterialGraphNode_Knot_0 F57B821A488F72A3AE7EC7B0A43BAB23,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_20"
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_9"
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_9"
+      DefaultValue=1.000000
+      ParameterName="amplitude2"
+      ExpressionGUID=0072F372499BB123C07DDBA74141D059
+      MaterialExpressionEditorX=-1184
+      MaterialExpressionEditorY=-112
+      MaterialExpressionGuid=93482F2644493467CB63F59885D86BA8
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_9"'
+   NodePosX=-1184
+   NodePosY=-112
+   bCanRenameNode=True
+   NodeGuid=812765934F3307305015CA814C1E247D
+   CustomProperties Pin (PinId=96C6315E4382DF39358B4B8C580065F3,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_23 B01937304B98EEDB8CD869BB4492A6C4,MaterialGraphNode_28 C10C3F0A4700775687453D8FC7DA0377,MaterialGraphNode_31 C8D8E9C84D06951D13072ABF2F3CA2C3,MaterialGraphNode_44 4BC99CCB45A1E6A53959FEB9E54B1B30,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_21"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_17"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_17"
+      A=(Expression=MaterialExpressionSine'"MaterialGraphNode_1.MaterialExpressionSine_1"')
+      B=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_23.MaterialExpressionMultiply_18"')
+      MaterialExpressionEditorX=224
+      MaterialExpressionEditorY=-368
+      MaterialExpressionGuid=3474C39D43578DC7131233AEFC63C857
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionMultiply'"MaterialExpressionMultiply_17"'
+   NodePosX=224
+   NodePosY=-368
+   NodeGuid=DFDBB0AB438C2FB36903E6AD55777DBF
+   CustomProperties Pin (PinId=8B120ABE46087531B7001FA62A425DE6,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_1 3F19D2834E2FAEEC90AF079836A66155,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=A1C1CCAE4D3D3651C3A225BA95B25E30,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_23 B2477DC348D7E1FDAB8362B9C9D9C2FA,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=A290007647FF52BB4350B98BD7526F5E,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_24 86E7D35B4468017A105815AD7A3D54A4,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_22"
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_2"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_2"
+      R=2.000000
+      MaterialExpressionEditorX=-128
+      MaterialExpressionEditorY=-48
+      MaterialExpressionGuid=A97540824001FCA96ECEB3A9048A5F94
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionConstant'"MaterialExpressionConstant_2"'
+   NodePosX=-128
+   NodePosY=-48
+   NodeGuid=ADD2C1A6486F4FF61A755387E00B53C0
+   CustomProperties Pin (PinId=08E916C84F7982015E56CD82D52C5CA3,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_23 C568A9354D8063092FE3888A02F4847B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_23"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_18"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_18"
+      A=(Expression=MaterialExpressionScalarParameter'"MaterialGraphNode_20.MaterialExpressionScalarParameter_9"')
+      B=(Expression=MaterialExpressionConstant'"MaterialGraphNode_22.MaterialExpressionConstant_2"')
+      MaterialExpressionEditorX=32
+      MaterialExpressionEditorY=-176
+      MaterialExpressionGuid=614BC27840D08B876F8016A14DC1BA3F
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionMultiply'"MaterialExpressionMultiply_18"'
+   NodePosX=32
+   NodePosY=-176
+   NodeGuid=7174AFB846BDBBDCE7BB538F8CB8ECF6
+   CustomProperties Pin (PinId=B01937304B98EEDB8CD869BB4492A6C4,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_20 96C6315E4382DF39358B4B8C580065F3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=C568A9354D8063092FE3888A02F4847B,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_22 08E916C84F7982015E56CD82D52C5CA3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=B2477DC348D7E1FDAB8362B9C9D9C2FA,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_21 A1C1CCAE4D3D3651C3A225BA95B25E30,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_24"
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_4"
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_4"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.MakeFloat3"'
+      FunctionInputs(0)=(ExpressionInputId=529C1D96441E07EB03A9E59B8A7F67B6,Input=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_34.MaterialExpressionMultiply_23"',InputName="X"))
+      FunctionInputs(1)=(ExpressionInputId=B5BD7D1B494F6928732CCDA1C63D8E15,Input=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_36.MaterialExpressionMultiply_24"',InputName="Y"))
+      FunctionInputs(2)=(ExpressionInputId=050F17B8471570B47A802CB7CAA5A201,Input=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_21.MaterialExpressionMultiply_17"',InputName="Z"))
+      FunctionOutputs(0)=(ExpressionOutputId=0DD6F9954C067C3E5DDBBBA0D6910DD2,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=1440
+      MaterialExpressionEditorY=-832
+      MaterialExpressionGuid=BC016C2543C61B89C8306D92E349E04E
+      Material=Material'"/Engine/Transient.Material_36"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   MaterialExpression=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_4"'
+   NodePosX=1440
+   NodePosY=-832
+   NodeGuid=C3045AE24604696E98340F880948E540
+   CustomProperties Pin (PinId=EBD55E264C79AE8F2E647A98BD31BBEE,PinName="X (S)",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_34 D5559F184A25FD5B3A07C8ABDDEA65B5,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=920C2AF944DD0508F051C3A562B583A0,PinName="Y (S)",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_36 6FB74B304C0EAE1FEF12258F23B58B0C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=86E7D35B4468017A105815AD7A3D54A4,PinName="Z (S)",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_21 A290007647FF52BB4350B98BD7526F5E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=7BECB4C9461E2CCEB02A34B18B72D052,PinName="Result",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_0 18F1D4AD446B42117D3E569E931F5768,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_25"
+   Begin Object Class=/Script/Engine.MaterialExpressionCosine Name="MaterialExpressionCosine_1"
+   End Object
+   Begin Object Name="MaterialExpressionCosine_1"
+      Input=(Expression=MaterialExpressionAdd'"MaterialGraphNode_19.MaterialExpressionAdd_0"')
+      MaterialExpressionEditorX=-976
+      MaterialExpressionEditorY=-832
+      MaterialExpressionGuid=037CCD3D4E3CB295276E3F9C1F38962A
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionCosine'"MaterialExpressionCosine_1"'
+   NodePosX=-976
+   NodePosY=-832
+   NodeGuid=F2FD04EC401A4FC54F9F8E92FD681750
+   CustomProperties Pin (PinId=E06D04B54A8A0899228007A8ADD80C48,PinName="Input",PinFriendlyName=" ",PinType.PinCategory="required",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_19 77A7A7D64B4097BCB83FFBB41937F3EF,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=38DAF6314DF22167DC6093BF8AB9789A,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_27 FC7917E646152788CBC3A5A686715920,MaterialGraphNode_42 5BBF6B374C30A9D65C6E1BADA855EA0D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_26"
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_6"
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_6"
+      Input=(Expression=MaterialExpressionVectorParameter'"MaterialGraphNode_10.MaterialExpressionVectorParameter_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      R=True
+      MaterialExpressionEditorX=144
+      MaterialExpressionEditorY=-1184
+      MaterialExpressionGuid=4FEBF94540306C7EEDDF38B2ACF54FE1
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_6"'
+   NodePosX=144
+   NodePosY=-1184
+   NodeGuid=688F2B5541A5642D6444EBA83E6C7F13
+   CustomProperties Pin (PinId=3AF5597943A71E7AD04487B860B4EF4E,PinName="Input",PinFriendlyName=" ",PinType.PinCategory="required",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_10 F45202DD497C7962ED5E80AD05D23E2A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=884F4F6D4D9EF13EA4EE769A485DE6BC,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_34 A0AACF3E4506CB6C793020B7B8B991A5,MaterialGraphNode_45 D3B5FC8E4954562AA2BD1FBD7AC47EF3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_27"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_19"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_19"
+      A=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_28.MaterialExpressionMultiply_20"')
+      B=(Expression=MaterialExpressionCosine'"MaterialGraphNode_25.MaterialExpressionCosine_1"')
+      MaterialExpressionEditorX=144
+      MaterialExpressionEditorY=-800
+      MaterialExpressionGuid=4DEDF54645FFED10702A779BCC4CADE4
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionMultiply'"MaterialExpressionMultiply_19"'
+   NodePosX=144
+   NodePosY=-800
+   NodeGuid=D7B42B2E4B74F6651AE4C9B73ADC1ED3
+   CustomProperties Pin (PinId=57CD06D84C71149658C2E4AC9E62464E,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_28 BB9C28E940808528389170B446A2EF92,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=FC7917E646152788CBC3A5A686715920,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_25 38DAF6314DF22167DC6093BF8AB9789A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=A6CAED374874176B0C270B9EDCDC7297,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_34 6DF0D3F04717F461F1FD52AC8094AF37,MaterialGraphNode_36 23B445064560E70606A110903C9E4DF1,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_28"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_20"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_20"
+      A=(Expression=MaterialExpressionDivide'"MaterialGraphNode_33.MaterialExpressionDivide_3"')
+      B=(Expression=MaterialExpressionScalarParameter'"MaterialGraphNode_20.MaterialExpressionScalarParameter_9"')
+      MaterialExpressionEditorX=-384
+      MaterialExpressionEditorY=-1392
+      MaterialExpressionGuid=1C8E465149617B670F59729715EF75DF
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionMultiply'"MaterialExpressionMultiply_20"'
+   NodePosX=-384
+   NodePosY=-1392
+   NodeGuid=99A2100F4093484004867E96996FF364
+   CustomProperties Pin (PinId=1723646F49964FEF44D45C9AF534EC7B,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_33 41ECF8EB4AF6805B82DCF592D6A55EF8,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=C10C3F0A4700775687453D8FC7DA0377,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_20 96C6315E4382DF39358B4B8C580065F3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=BB9C28E940808528389170B446A2EF92,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_27 57CD06D84C71149658C2E4AC9E62464E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_29"
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_10"
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_10"
+      DefaultValue=1.000000
+      ParameterName="numwaves2"
+      ExpressionGUID=1141B08949215B21C78031A14D38397F
+      MaterialExpressionEditorX=-1568
+      MaterialExpressionEditorY=-1472
+      MaterialExpressionGuid=8448E3E943BD9FFF081CFEB0C2F6C334
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_10"'
+   NodePosX=-1568
+   NodePosY=-1472
+   bCanRenameNode=True
+   NodeGuid=2BF3A00849579C18ACD4E5A54537012C
+   CustomProperties Pin (PinId=AAD37BA84D367116BF7D84B503C04222,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_39 16599DDD43637BC8746DCB865EE71E7B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_30"
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_11"
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_11"
+      ParameterName="Q(Steepness)2"
+      ExpressionGUID=BDD19C5D4CE1FD1EE3152D9B63460426
+      MaterialExpressionEditorX=-960
+      MaterialExpressionEditorY=-1744
+      MaterialExpressionGuid=5FE672274799EEABBC9F668CB6A21561
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_11"'
+   NodePosX=-960
+   NodePosY=-1744
+   bCanRenameNode=True
+   NodeGuid=A45A88FA4F8F20145FCA87B86DA413E8
+   CustomProperties Pin (PinId=FF7D78CC4091D5AF79F585A1FA32E4B2,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_33 807461534DC6EB01D27D7493C7A7F897,MaterialGraphNode_47 E9273BA84832C9C8D8C8E9AF6E7CCE60,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_31"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_21"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_21"
+      A=(Expression=MaterialExpressionDivide'"MaterialGraphNode_15.MaterialExpressionDivide_1"')
+      B=(Expression=MaterialExpressionScalarParameter'"MaterialGraphNode_20.MaterialExpressionScalarParameter_9"')
+      MaterialExpressionEditorX=-1136
+      MaterialExpressionEditorY=-1360
+      MaterialExpressionGuid=895C13B147F241CE219412A1A5EECFA3
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionMultiply'"MaterialExpressionMultiply_21"'
+   NodePosX=-1136
+   NodePosY=-1360
+   NodeGuid=5344CA024D1F55ABB8B781B7FEECA8DD
+   CustomProperties Pin (PinId=AA38901049CC459338CF45917F809169,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_15 D29AF3DB4A298D52A87D338CF0EB05CD,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=C8D8E9C84D06951D13072ABF2F3CA2C3,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_20 96C6315E4382DF39358B4B8C580065F3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=191FEB374683F6AC6E6D2C86A88C65A3,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_32 DB142459422B2B0CC561E589771AD855,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_32"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_22"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_22"
+      A=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_39.MaterialExpressionMultiply_25"')
+      B=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_31.MaterialExpressionMultiply_21"')
+      MaterialExpressionEditorX=-944
+      MaterialExpressionEditorY=-1456
+      MaterialExpressionGuid=BE8896B34C8B33D7BE7F5C8F2D58F3E9
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionMultiply'"MaterialExpressionMultiply_22"'
+   NodePosX=-944
+   NodePosY=-1456
+   NodeGuid=3F8A041C4B6F91EEE91EC6BA89536F8C
+   CustomProperties Pin (PinId=112486E74013F20746A7649828EBDFDB,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_39 9D0211A249FC28A5EFC5F5B9364F886D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=DB142459422B2B0CC561E589771AD855,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_31 191FEB374683F6AC6E6D2C86A88C65A3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=E5F7FF004A133FCE9EBFCFA782A9B393,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_33 98254E274DDB0A84B0708592A94613DD,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_33"
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_3"
+   End Object
+   Begin Object Name="MaterialExpressionDivide_3"
+      A=(Expression=MaterialExpressionScalarParameter'"MaterialGraphNode_30.MaterialExpressionScalarParameter_11"')
+      B=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_32.MaterialExpressionMultiply_22"')
+      MaterialExpressionEditorX=-656
+      MaterialExpressionEditorY=-1616
+      MaterialExpressionGuid=188A5D1B46A3B3CB94E715B051587BA6
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionDivide'"MaterialExpressionDivide_3"'
+   NodePosX=-656
+   NodePosY=-1616
+   NodeGuid=02AFC74A476FC2AE9E22ED83BB9D0037
+   CustomProperties Pin (PinId=807461534DC6EB01D27D7493C7A7F897,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_30 FF7D78CC4091D5AF79F585A1FA32E4B2,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=98254E274DDB0A84B0708592A94613DD,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_32 E5F7FF004A133FCE9EBFCFA782A9B393,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=41ECF8EB4AF6805B82DCF592D6A55EF8,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_28 1723646F49964FEF44D45C9AF534EC7B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_34"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_23"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_23"
+      A=(Expression=MaterialExpressionComponentMask'"MaterialGraphNode_26.MaterialExpressionComponentMask_6"')
+      B=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_27.MaterialExpressionMultiply_19"')
+      MaterialExpressionEditorX=752
+      MaterialExpressionEditorY=-1056
+      MaterialExpressionGuid=E9EFE2B042F1DE95187CC384EACC7F41
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionMultiply'"MaterialExpressionMultiply_23"'
+   NodePosX=752
+   NodePosY=-1056
+   NodeGuid=3D2643244356BAE30CE0F8AADD72CE8B
+   CustomProperties Pin (PinId=A0AACF3E4506CB6C793020B7B8B991A5,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_26 884F4F6D4D9EF13EA4EE769A485DE6BC,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=6DF0D3F04717F461F1FD52AC8094AF37,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_27 A6CAED374874176B0C270B9EDCDC7297,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=D5559F184A25FD5B3A07C8ABDDEA65B5,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_24 EBD55E264C79AE8F2E647A98BD31BBEE,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_35"
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_7"
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_7"
+      Input=(Expression=MaterialExpressionVectorParameter'"MaterialGraphNode_10.MaterialExpressionVectorParameter_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      G=True
+      MaterialExpressionEditorX=144
+      MaterialExpressionEditorY=-1008
+      MaterialExpressionGuid=4FEBF94540306C7EEDDF38B2ACF54FE1
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_7"'
+   NodePosX=144
+   NodePosY=-1008
+   NodeGuid=8A6E934D4FC9375312415FA41212E480
+   CustomProperties Pin (PinId=E58086784D58A4190BCEEE87AF1FAE49,PinName="Input",PinFriendlyName=" ",PinType.PinCategory="required",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_10 F45202DD497C7962ED5E80AD05D23E2A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=1806D3374A996F64D69E5B87E8694EB1,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_36 0A719BFC4B70F05B2931D7B750DC9424,MaterialGraphNode_46 F603B5424954A7A78A1233BF3CA80462,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_36"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_24"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_24"
+      A=(Expression=MaterialExpressionComponentMask'"MaterialGraphNode_35.MaterialExpressionComponentMask_7"')
+      B=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_27.MaterialExpressionMultiply_19"')
+      MaterialExpressionEditorX=608
+      MaterialExpressionEditorY=-832
+      MaterialExpressionGuid=A966D13244CB600BFF5D0FAFFDB30095
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionMultiply'"MaterialExpressionMultiply_24"'
+   NodePosX=608
+   NodePosY=-832
+   NodeGuid=27B0AE8540BB64F89205E3B5D61E06E5
+   CustomProperties Pin (PinId=0A719BFC4B70F05B2931D7B750DC9424,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_35 1806D3374A996F64D69E5B87E8694EB1,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=23B445064560E70606A110903C9E4DF1,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_27 A6CAED374874176B0C270B9EDCDC7297,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=6FB74B304C0EAE1FEF12258F23B58B0C,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_24 920C2AF944DD0508F051C3A562B583A0,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_37"
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_5"
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_5"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Math/Pi.Pi"'
+      FunctionInputs(0)=(ExpressionInputId=84B7E00B475AA443B5528B9B43EBDA1E,Input=(Expression=MaterialExpressionConstant'"MaterialGraphNode_38.MaterialExpressionConstant_3"',InputName="Multiplier"))
+      FunctionOutputs(0)=(ExpressionOutputId=D4753A094317F28FD02E698B43558358,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-1424
+      MaterialExpressionEditorY=-1552
+      MaterialExpressionGuid=04E5D59042482D5B8A8D86863BA60F1F
+      Material=Material'"/Engine/Transient.Material_36"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   MaterialExpression=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_5"'
+   NodePosX=-1424
+   NodePosY=-1552
+   NodeGuid=1F55D28F43D4766F65932BAD934112DE
+   CustomProperties Pin (PinId=E3F470394AD5DF5A1CA2FDB404A21EC3,PinName="Multiplier (S)",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_38 B9B85F2F4BD3DB8796E6029CC0C989F1,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=437FACE1420AD36A2925419AAF5CD07B,PinName="Result",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_39 0B5596F641AB6E0C253D1387497AEFF8,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_38"
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_3"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_3"
+      R=2.000000
+      MaterialExpressionEditorX=-1520
+      MaterialExpressionEditorY=-1552
+      MaterialExpressionGuid=2865EBD34E4BD5F4679CC7918D562071
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionConstant'"MaterialExpressionConstant_3"'
+   NodePosX=-1520
+   NodePosY=-1552
+   NodeGuid=0DB4FC4F42D7705F7304018EB00057E7
+   CustomProperties Pin (PinId=B9B85F2F4BD3DB8796E6029CC0C989F1,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_37 E3F470394AD5DF5A1CA2FDB404A21EC3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_39"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_25"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_25"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'"MaterialGraphNode_37.MaterialExpressionMaterialFunctionCall_5"')
+      B=(Expression=MaterialExpressionScalarParameter'"MaterialGraphNode_29.MaterialExpressionScalarParameter_10"')
+      MaterialExpressionEditorX=-1152
+      MaterialExpressionEditorY=-1536
+      MaterialExpressionGuid=61DACC694643EFC1EDB1E482843B74E3
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionMultiply'"MaterialExpressionMultiply_25"'
+   NodePosX=-1152
+   NodePosY=-1536
+   NodeGuid=A939658C4A65028E71CAA1B28861D7AB
+   CustomProperties Pin (PinId=0B5596F641AB6E0C253D1387497AEFF8,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_37 437FACE1420AD36A2925419AAF5CD07B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=16599DDD43637BC8746DCB865EE71E7B,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_29 AAD37BA84D367116BF7D84B503C04222,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=9D0211A249FC28A5EFC5F5B9364F886D,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_32 112486E74013F20746A7649828EBDFDB,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_40"
+   Begin Object Class=/Script/Engine.MaterialExpressionFunctionOutput Name="MaterialExpressionFunctionOutput_2"
+   End Object
+   Begin Object Name="MaterialExpressionFunctionOutput_2"
+      OutputName="normals"
+      A=(Expression=MaterialExpressionMaterialFunctionCall'"MaterialGraphNode_41.MaterialExpressionMaterialFunctionCall_6"')
+      Id=955CE18C4C8AD9CAC8CDDF9A1834838F
+      MaterialExpressionEditorX=2224
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=B527A99A4A26D5895D6186B0AF9AD918
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionFunctionOutput'"MaterialExpressionFunctionOutput_2"'
+   NodePosX=2224
+   NodePosY=224
+   NodeGuid=E32583C7412CCAFC88726A891C888666
+   CustomProperties Pin (PinId=AF27123E49166CBF94060B9D40754181,PinName="Input",PinFriendlyName=" ",PinType.PinCategory="required",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_41 115A26A842DEE3966D3CEAB06AA05195,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=A2871A234453FC27DDA69C9F523B8556,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_41"
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_6"
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_6"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.MakeFloat3"'
+      FunctionInputs(0)=(ExpressionInputId=529C1D96441E07EB03A9E59B8A7F67B6,Input=(Expression=MaterialExpressionSubtract'"MaterialGraphNode_48.MaterialExpressionSubtract_0"',InputName="X"))
+      FunctionInputs(1)=(ExpressionInputId=B5BD7D1B494F6928732CCDA1C63D8E15,Input=(Expression=MaterialExpressionSubtract'"MaterialGraphNode_49.MaterialExpressionSubtract_1"',InputName="Y"))
+      FunctionInputs(2)=(ExpressionInputId=050F17B8471570B47A802CB7CAA5A201,Input=(Expression=MaterialExpressionOneMinus'"MaterialGraphNode_50.MaterialExpressionOneMinus_0"',InputName="Z"))
+      FunctionOutputs(0)=(ExpressionOutputId=0DD6F9954C067C3E5DDBBBA0D6910DD2,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=1920
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=10DA52304BEDCC15C65EA6B3BFB2CAAF
+      Material=Material'"/Engine/Transient.Material_36"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   MaterialExpression=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_6"'
+   NodePosX=1920
+   NodePosY=240
+   NodeGuid=BB617D734C7F78633341C8864C07C51C
+   CustomProperties Pin (PinId=9C4621AF4CA78EF7045F0786186F8A85,PinName="X (S)",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_48 1F302889429AF0DE0B981FAD6BC0016D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=F15534F1458D1BD4ACFA7EB2F81C3BA0,PinName="Y (S)",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_49 C035A8DC47ED84BB693801ABF056168D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=44A622604B6EAAED56A07285451000C5,PinName="Z (S)",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_50 6ED953C9415C3C95DA12839849DEED68,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=115A26A842DEE3966D3CEAB06AA05195,PinName="Result",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_40 AF27123E49166CBF94060B9D40754181,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_42"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_26"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_26"
+      A=(Expression=MaterialExpressionCosine'"MaterialGraphNode_25.MaterialExpressionCosine_1"')
+      B=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_44.MaterialExpressionMultiply_28"')
+      MaterialExpressionEditorX=704
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=52CE16CA4B3FC599EBFD09ADC47A7C71
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionMultiply'"MaterialExpressionMultiply_26"'
+   NodePosX=704
+   NodePosY=144
+   NodeGuid=CE81E6144488EE8499E7D5B3C98F70BC
+   CustomProperties Pin (PinId=5BBF6B374C30A9D65C6E1BADA855EA0D,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_25 38DAF6314DF22167DC6093BF8AB9789A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=87423A2E435C540359386A8E3C8A2BFF,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_44 D4D947F248F12B25A02F5F9CCEEC90B1,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=7AF0DF70472DCE292C3CF1855062FFE3,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_45 65160D9A459F951571EE3DA18C3DF829,MaterialGraphNode_46 827BF687446755C942A0FAB5D770D006,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_43"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_27"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_27"
+      A=(Expression=MaterialExpressionSine'"MaterialGraphNode_1.MaterialExpressionSine_1"')
+      B=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_44.MaterialExpressionMultiply_28"')
+      MaterialExpressionEditorX=640
+      MaterialExpressionEditorY=512
+      MaterialExpressionGuid=AFA983C549FB66B70D89ECB385CFFC1D
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionMultiply'"MaterialExpressionMultiply_27"'
+   NodePosX=640
+   NodePosY=512
+   NodeGuid=E33BEC974D338272CB6E649C184CA23D
+   CustomProperties Pin (PinId=995D969144C93F6F5B5A50BB716FDE9C,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_1 3F19D2834E2FAEEC90AF079836A66155,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=23802ACC43A95CEE36C0F2870B871411,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_44 D4D947F248F12B25A02F5F9CCEEC90B1,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=76A2AD5D485E08608C1409A5F85BC000,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_47 5D5F973D4F50EA7CC14BF5A42B21A3C1,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_44"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_28"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_28"
+      A=(Expression=MaterialExpressionScalarParameter'"MaterialGraphNode_20.MaterialExpressionScalarParameter_9"')
+      B=(Expression=MaterialExpressionDivide'"MaterialGraphNode_15.MaterialExpressionDivide_1"')
+      MaterialExpressionEditorX=224
+      MaterialExpressionEditorY=352
+      MaterialExpressionGuid=6E8A1EFC4AD09FAED2C915ADC7CEF9C3
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionMultiply'"MaterialExpressionMultiply_28"'
+   NodePosX=224
+   NodePosY=352
+   NodeGuid=C873EE9F4A96BF5BAEDA219B6CB77E10
+   CustomProperties Pin (PinId=4BC99CCB45A1E6A53959FEB9E54B1B30,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_20 96C6315E4382DF39358B4B8C580065F3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=31FA25874A05D5FFC7B2A9899E35FE8F,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_15 D29AF3DB4A298D52A87D338CF0EB05CD,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=D4D947F248F12B25A02F5F9CCEEC90B1,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_42 87423A2E435C540359386A8E3C8A2BFF,MaterialGraphNode_43 23802ACC43A95CEE36C0F2870B871411,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_45"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_29"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_29"
+      A=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_42.MaterialExpressionMultiply_26"')
+      B=(Expression=MaterialExpressionComponentMask'"MaterialGraphNode_26.MaterialExpressionComponentMask_6"')
+      MaterialExpressionEditorX=1184
+      MaterialExpressionEditorY=112
+      MaterialExpressionGuid=607F6D2B4A2105C5E5D760819E58FF45
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionMultiply'"MaterialExpressionMultiply_29"'
+   NodePosX=1184
+   NodePosY=112
+   NodeGuid=AE2237464135729DF107E988745379DA
+   CustomProperties Pin (PinId=65160D9A459F951571EE3DA18C3DF829,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_42 7AF0DF70472DCE292C3CF1855062FFE3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=D3B5FC8E4954562AA2BD1FBD7AC47EF3,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_26 884F4F6D4D9EF13EA4EE769A485DE6BC,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=F8CA27F94CDFE24D83AC65B50C255FBA,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_48 6D4050E0496A76B5E9E0A7B781176FC8,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_46"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_30"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_30"
+      A=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_42.MaterialExpressionMultiply_26"')
+      B=(Expression=MaterialExpressionComponentMask'"MaterialGraphNode_35.MaterialExpressionComponentMask_7"')
+      MaterialExpressionEditorX=1232
+      MaterialExpressionEditorY=304
+      MaterialExpressionGuid=77915119407BF6F5333F269C81547A2F
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionMultiply'"MaterialExpressionMultiply_30"'
+   NodePosX=1232
+   NodePosY=304
+   NodeGuid=B16DC648487EA98E4A8A88BD6A558F58
+   CustomProperties Pin (PinId=827BF687446755C942A0FAB5D770D006,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_42 7AF0DF70472DCE292C3CF1855062FFE3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=F603B5424954A7A78A1233BF3CA80462,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_35 1806D3374A996F64D69E5B87E8694EB1,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=689F106E45C793D227AE1A986526324D,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_49 D57882F74514CBAF1FF72DBFF3DABE6E,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_47"
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_31"
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_31"
+      A=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_43.MaterialExpressionMultiply_27"')
+      B=(Expression=MaterialExpressionScalarParameter'"MaterialGraphNode_30.MaterialExpressionScalarParameter_11"')
+      MaterialExpressionEditorX=1248
+      MaterialExpressionEditorY=544
+      MaterialExpressionGuid=8BD561B94CEF224B64533D90430BE260
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionMultiply'"MaterialExpressionMultiply_31"'
+   NodePosX=1248
+   NodePosY=544
+   NodeGuid=7C673B3F44E5BABD9C4D54BB06D3F79D
+   CustomProperties Pin (PinId=5D5F973D4F50EA7CC14BF5A42B21A3C1,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_43 76A2AD5D485E08608C1409A5F85BC000,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=E9273BA84832C9C8D8C8E9AF6E7CCE60,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_30 FF7D78CC4091D5AF79F585A1FA32E4B2,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=E104B79C440A1B2A575191A9CCDF7D60,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_50 0439EA214D9BD62CCAFC0EA0D306BC4C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_48"
+   Begin Object Class=/Script/Engine.MaterialExpressionSubtract Name="MaterialExpressionSubtract_0"
+   End Object
+   Begin Object Name="MaterialExpressionSubtract_0"
+      B=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_45.MaterialExpressionMultiply_29"')
+      ConstA=0.000000
+      MaterialExpressionEditorX=1504
+      MaterialExpressionEditorY=80
+      MaterialExpressionGuid=1C81AAB9412F450144A135A2F79AFC0F
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionSubtract'"MaterialExpressionSubtract_0"'
+   NodePosX=1504
+   NodePosY=80
+   NodeGuid=4D779AE64FFB07F1C3DE76A4B794B2C9
+   CustomProperties Pin (PinId=AE023AA94C1E5F8ECA115BA99B5469F2,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=6D4050E0496A76B5E9E0A7B781176FC8,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_45 F8CA27F94CDFE24D83AC65B50C255FBA,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=1F302889429AF0DE0B981FAD6BC0016D,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_41 9C4621AF4CA78EF7045F0786186F8A85,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_49"
+   Begin Object Class=/Script/Engine.MaterialExpressionSubtract Name="MaterialExpressionSubtract_1"
+   End Object
+   Begin Object Name="MaterialExpressionSubtract_1"
+      B=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_46.MaterialExpressionMultiply_30"')
+      ConstA=0.000000
+      MaterialExpressionEditorX=1520
+      MaterialExpressionEditorY=272
+      MaterialExpressionGuid=1C81AAB9412F450144A135A2F79AFC0F
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionSubtract'"MaterialExpressionSubtract_1"'
+   NodePosX=1520
+   NodePosY=272
+   NodeGuid=21ADD77B46D946B46AA7BAA72BDE8FF5
+   CustomProperties Pin (PinId=5C7A9A2A4FE8985FF23556A7D6955295,PinName="A",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=D57882F74514CBAF1FF72DBFF3DABE6E,PinName="B",PinType.PinCategory="optional",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_46 689F106E45C793D227AE1A986526324D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=C035A8DC47ED84BB693801ABF056168D,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_41 F15534F1458D1BD4ACFA7EB2F81C3BA0,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode Name="MaterialGraphNode_50"
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_0"
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_0"
+      Input=(Expression=MaterialExpressionMultiply'"MaterialGraphNode_47.MaterialExpressionMultiply_31"')
+      MaterialExpressionEditorX=1568
+      MaterialExpressionEditorY=560
+      MaterialExpressionGuid=031764E4431B726750A6BA8E59D99C3C
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionOneMinus'"MaterialExpressionOneMinus_0"'
+   NodePosX=1568
+   NodePosY=560
+   NodeGuid=14EB40464B1D6DAA6DAA73B70D60141E
+   CustomProperties Pin (PinId=0439EA214D9BD62CCAFC0EA0D306BC4C,PinName="Input",PinFriendlyName=" ",PinType.PinCategory="required",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_47 E104B79C440A1B2A575191A9CCDF7D60,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=6ED953C9415C3C95DA12839849DEED68,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_41 44A622604B6EAAED56A07285451000C5,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode_Knot Name="MaterialGraphNode_Knot_0"
+   Begin Object Class=/Script/Engine.MaterialExpressionReroute Name="MaterialExpressionReroute_0"
+   End Object
+   Begin Object Name="MaterialExpressionReroute_0"
+      Input=(Expression=MaterialExpressionAdd'"MaterialGraphNode_19.MaterialExpressionAdd_0"')
+      MaterialExpressionEditorX=-1134
+      MaterialExpressionEditorY=-678
+      MaterialExpressionGuid=C4D8A9C3408855CC3BF4C3A147839201
+      Material=Material'"/Engine/Transient.Material_36"'
+   End Object
+   MaterialExpression=MaterialExpressionReroute'"MaterialExpressionReroute_0"'
+   NodePosX=-1134
+   NodePosY=-678
+   bCanRenameNode=False
+   NodeGuid=23A295874F9DE0DCB08ABD9D83F043C2
+   CustomProperties Pin (PinId=F57B821A488F72A3AE7EC7B0A43BAB23,PinName="InputPin",PinType.PinCategory="wildcard",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_19 77A7A7D64B4097BCB83FFBB41937F3EF,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=True,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=95A896AD4F6F90C301EE0E939C280FD0,PinName="OutputPin",Direction="EGPD_Output",PinType.PinCategory="wildcard",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(MaterialGraphNode_1 B0BC9CDA432AE04DD2C17BBC0B87AEFB,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode_Comment Name="MaterialGraphNode_Comment_0"
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_10"
+   End Object
+   Begin Object Name="MaterialExpressionComment_10"
+      SizeX=856
+      SizeY=281
+      Text="2d x,y position"
+      MaterialExpressionEditorX=-3936
+      MaterialExpressionEditorY=-1104
+      MaterialExpressionGuid=D3A7FC52485DEA8FBA7E7F9A8AB29629
+      Function=MaterialFunction'"/Engine/Transient.f_gerstner_simple2"'
+   End Object
+   MaterialExpressionComment=MaterialExpressionComment'"MaterialExpressionComment_10"'
+   NodePosX=-3936
+   NodePosY=-1104
+   NodeWidth=856
+   NodeHeight=281
+   NodeComment="2d x,y position"
+   NodeGuid=8ABD53964FA0997E7845AFA174F39BB6
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode_Comment Name="MaterialGraphNode_Comment_1"
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_11"
+   End Object
+   Begin Object Name="MaterialExpressionComment_11"
+      SizeX=592
+      SizeY=272
+      Text="2d direction"
+      MaterialExpressionEditorX=-3776
+      MaterialExpressionEditorY=-1472
+      MaterialExpressionGuid=DCFCA0BE400862019FB2DA903317C952
+      Function=MaterialFunction'"/Engine/Transient.f_gerstner_simple2"'
+   End Object
+   MaterialExpressionComment=MaterialExpressionComment'"MaterialExpressionComment_11"'
+   NodePosX=-3776
+   NodePosY=-1472
+   NodeWidth=592
+   NodeHeight=272
+   NodeComment="2d direction"
+   NodeGuid=DEE203674494FAE76B2ED69A4BD5FC5C
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode_Comment Name="MaterialGraphNode_Comment_2"
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_12"
+   End Object
+   Begin Object Name="MaterialExpressionComment_12"
+      SizeX=548
+      SizeY=298
+      Text="W"
+      MaterialExpressionEditorX=-3408
+      MaterialExpressionEditorY=-608
+      MaterialExpressionGuid=9E88A9434C56B7AFA4102BA6305C64CF
+      Function=MaterialFunction'"/Engine/Transient.f_gerstner_simple2"'
+   End Object
+   MaterialExpressionComment=MaterialExpressionComment'"MaterialExpressionComment_12"'
+   NodePosX=-3408
+   NodePosY=-608
+   NodeWidth=548
+   NodeHeight=298
+   NodeComment="W"
+   NodeGuid=4555B331434ECF2E6075EC91D695057F
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode_Comment Name="MaterialGraphNode_Comment_3"
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_13"
+   End Object
+   Begin Object Name="MaterialExpressionComment_13"
+      SizeX=446
+      SizeY=201
+      Text="Speed * 2pi/l (speed * W)"
+      MaterialExpressionEditorX=-2928
+      MaterialExpressionEditorY=-160
+      MaterialExpressionGuid=3F3A975046F3A93A523F929E07E70AA7
+      Function=MaterialFunction'"/Engine/Transient.f_gerstner_simple2"'
+   End Object
+   MaterialExpressionComment=MaterialExpressionComment'"MaterialExpressionComment_13"'
+   NodePosX=-2928
+   NodePosY=-160
+   NodeWidth=446
+   NodeHeight=201
+   NodeComment="Speed * 2pi/l (speed * W)"
+   NodeGuid=02E96B3548537EECBBEAD1BD34B578EB
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode_Comment Name="MaterialGraphNode_Comment_4"
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_14"
+   End Object
+   Begin Object Name="MaterialExpressionComment_14"
+      SizeX=382
+      SizeY=261
+      Text="t * phase constant"
+      MaterialExpressionEditorX=-2368
+      MaterialExpressionEditorY=-368
+      MaterialExpressionGuid=8C3BB381421AC56EE8732A8F04B48AE5
+      Function=MaterialFunction'"/Engine/Transient.f_gerstner_simple2"'
+   End Object
+   MaterialExpressionComment=MaterialExpressionComment'"MaterialExpressionComment_14"'
+   NodePosX=-2368
+   NodePosY=-368
+   NodeWidth=382
+   NodeHeight=261
+   NodeComment="t * phase constant"
+   NodeGuid=B95D7F0C4C3BB7D6091A0698DAED9FEF
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode_Comment Name="MaterialGraphNode_Comment_5"
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_15"
+   End Object
+   Begin Object Name="MaterialExpressionComment_15"
+      SizeX=224
+      SizeY=208
+      Text="W*DP"
+      MaterialExpressionEditorX=-2032
+      MaterialExpressionEditorY=-784
+      MaterialExpressionGuid=97008FCF44EBA1E02B5425A681B452EB
+      Function=MaterialFunction'"/Engine/Transient.f_gerstner_simple2"'
+   End Object
+   MaterialExpressionComment=MaterialExpressionComment'"MaterialExpressionComment_15"'
+   NodePosX=-2032
+   NodePosY=-784
+   NodeWidth=224
+   NodeHeight=208
+   NodeComment="W*DP"
+   NodeGuid=B304E36C4B7D1133499177A04CCC9AED
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode_Comment Name="MaterialGraphNode_Comment_6"
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_16"
+   End Object
+   Begin Object Name="MaterialExpressionComment_16"
+      SizeX=240
+      SizeY=176
+      Text="(inner function)"
+      MaterialExpressionEditorX=-1552
+      MaterialExpressionEditorY=-560
+      MaterialExpressionGuid=E5BC6CAA42FFCF03AF0D3BB09C07E565
+      Function=MaterialFunction'"/Engine/Transient.f_gerstner_simple2"'
+   End Object
+   MaterialExpressionComment=MaterialExpressionComment'"MaterialExpressionComment_16"'
+   NodePosX=-1552
+   NodePosY=-560
+   NodeWidth=240
+   NodeHeight=176
+   NodeComment="(inner function)"
+   NodeGuid=06061B0747617FBD75B5708C0487E403
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode_Comment Name="MaterialGraphNode_Comment_7"
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_17"
+   End Object
+   Begin Object Name="MaterialExpressionComment_17"
+      SizeX=368
+      SizeY=160
+      Text="wind direction x component"
+      MaterialExpressionEditorX=32
+      MaterialExpressionEditorY=-1248
+      MaterialExpressionGuid=AB9D617542A9964B9DA1CC8309FD8AAD
+      Function=MaterialFunction'"/Engine/Transient.f_gerstner_simple2"'
+   End Object
+   MaterialExpressionComment=MaterialExpressionComment'"MaterialExpressionComment_17"'
+   NodePosX=32
+   NodePosY=-1248
+   NodeWidth=368
+   NodeHeight=160
+   NodeComment="wind direction x component"
+   NodeGuid=9C552E4949B61A5E766BEB97ABB516D9
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode_Comment Name="MaterialGraphNode_Comment_8"
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_18"
+   End Object
+   Begin Object Name="MaterialExpressionComment_18"
+      SizeX=800
+      SizeY=400
+      Text="W * A * Numwaves"
+      MaterialExpressionEditorX=-1600
+      MaterialExpressionEditorY=-1632
+      MaterialExpressionGuid=3FD895744D7513821F6EC7A80FF30FB7
+      Function=MaterialFunction'"/Engine/Transient.f_gerstner_simple2"'
+   End Object
+   MaterialExpressionComment=MaterialExpressionComment'"MaterialExpressionComment_18"'
+   NodePosX=-1600
+   NodePosY=-1632
+   NodeWidth=800
+   NodeHeight=400
+   NodeComment="W * A * Numwaves"
+   NodeGuid=C280FF7B4642888875813D83317DCA5D
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode_Comment Name="MaterialGraphNode_Comment_9"
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_19"
+   End Object
+   Begin Object Name="MaterialExpressionComment_19"
+      SizeX=368
+      SizeY=160
+      Text="wind direction y component"
+      MaterialExpressionEditorX=32
+      MaterialExpressionEditorY=-1072
+      MaterialExpressionGuid=AB9D617542A9964B9DA1CC8309FD8AAD
+      Function=MaterialFunction'"/Engine/Transient.f_gerstner_simple2"'
+   End Object
+   MaterialExpressionComment=MaterialExpressionComment'"MaterialExpressionComment_19"'
+   NodePosX=32
+   NodePosY=-1072
+   NodeWidth=368
+   NodeHeight=160
+   NodeComment="wind direction y component"
+   NodeGuid=FB4D11CC403FE37EA94EC6A4DB6B4017
+End Object
+Begin Object Class=/Script/UnrealEd.MaterialGraphNode_Comment Name="MaterialGraphNode_Comment_10"
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_20"
+   End Object
+   Begin Object Name="MaterialExpressionComment_20"
+      SizeX=2246
+      SizeY=635
+      Text="normal calculate"
+      MaterialExpressionEditorX=176
+      MaterialExpressionEditorY=32
+      MaterialExpressionGuid=B1566B884C0F7408978A27904686029B
+      Function=MaterialFunction'"/Engine/Transient.f_gerstner_simple2"'
+   End Object
+   MaterialExpressionComment=MaterialExpressionComment'"MaterialExpressionComment_20"'
+   NodePosX=176
+   NodePosY=32
+   NodeWidth=2246
+   NodeHeight=635
+   NodeComment="normal calculate"
+   NodeGuid=488ED4C24B345391DE5311A111EE81CA
+End Object

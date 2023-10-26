@@ -1,0 +1,17 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/github/UESample/EditorSample/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"D:/github/UESample/EditorSample/Content/Blueprints/BP_MyEditorUtilityWidget.uasset",
+				"D:/github/UESample/EditorSample/Content/EditorUtilityWidgets/EUW_Simple.uasset",
+				"D:/github/UESample/EditorSample/Content/EditorUtilityWidgets/NewEditorUtilityWidgetBlueprint.uasset",
+				"D:/github/UESample/EditorSample/Content/EditorUtilityWidgets/BP_Menu.uasset",
+				"D:/github/UESample/EditorSample/Content/EditorUtilityWidgets/EditorUtilityWidgetBlueprint.uasset"
+			]
+		}
+	]
+}
